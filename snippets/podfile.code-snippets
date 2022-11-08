@@ -1,0 +1,8 @@
+{
+  "Firestore precompiled frameworks": {
+    "prefix": "kFirestoreIosPreCompiled",
+    "body": [
+      "pod 'FirebaseFirestore', :git => 'https://github.com/invertase/firestore-ios-sdk-frameworks.git', :tag => '$0'"
+    ]
+  }
+}

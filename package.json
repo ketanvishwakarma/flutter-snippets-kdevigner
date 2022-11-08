@@ -1,0 +1,24 @@
+{
+  "name": "flutter-snippets-kdevigner",
+  "displayName": "flutter snipets kdevigner",
+  "description": "Boost the productivity while developing flutter applications",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/flutter.code-snippets"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/markdown.code-snippets"
+      }
+    ]  
+  }
+}
