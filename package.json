@@ -2,13 +2,12 @@
   "name": "flutter-snippets-kdevigner",
   "displayName": "flutter snipets kdevigner",
   "description": "Boost the productivity while developing flutter applications",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "kdevigner",
   "repository": {
     "type": "git",
     "url": "https://github.com/ketanvishwakarma/flutter-snippets-kdevigner"
   },
-  
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -22,8 +21,7 @@
         "path": "./snippets/flutter.code-snippets"
       },
       {
-        "language": "markdown",
-        "path": "./snippets/markdown.code-snippets"
+        "path": "./snippets/project.code-snippets"
       }
     ]  
   }
