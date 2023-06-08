@@ -129,5 +129,30 @@
     "body": [
       "pod 'FirebaseFirestore', :git => 'https://github.com/invertase/firestore-ios-sdk-frameworks.git', :tag => '${0: Firestore version from ios/Podfile.lock}'"
     ]
-  }
+  },
+  "kAnalysis": {
+  "scope": "Analysis options",
+  "prefix": "kAnalysis",
+  "body": [
+      "include: package:very_good_analysis/analysis_options.yaml",
+      "",
+      "analyzer:",
+      "  plugins:",
+      "\t- custom_lint",
+      "  exclude:",
+      "\t- '**.freezed.dart'",
+      "\t- '**.g.dart'",
+      "\t- '**.gr.dart'",
+      "\t- '**/generated_plugin_registrant.dart'",
+      "  errors:",
+      "\tinvalid_annotation_target: ignore",
+      "linter:",
+      "  rules:",
+      "\tpublic_member_api_docs: false",
+      "\tlibrary_private_types_in_public_api: false",
+      "custom_lint:",
+      "  rules:",
+      ""
+     ]
+    },
 }
